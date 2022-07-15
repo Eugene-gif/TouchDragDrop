@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-blend-mode: screen;
+  background: linear-gradient(limegreen, transparent),
+    linear-gradient(90deg, skyblue, transparent),
+    linear-gradient(-90deg, coral, transparent);
+}
+
+.body__title {
+  text-align: center;
+  margin: 20px 0;
+  color: rgb(6, 161, 6);
+}
+
+.body__text {
+  margin-bottom: 20px;
+  text-align: center;
+  color: red;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.area {
+  border: 1px solid rgb(18, 202, 18);
+  position: relative;
+  border-radius: 5px;
+  margin: 50px;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+}
+
+.empty {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.drag {
+  position: absolute;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  border-radius: 10px;
+  
+}
+
+.active {
+  background-color: yellowgreen;
+}
+
+
+

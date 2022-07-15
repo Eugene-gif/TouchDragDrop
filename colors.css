@@ -1,0 +1,260 @@
+:root {
+  --color1: #f44336;
+  --color2: #9c27b0;
+  --color3: #e91e63;
+  --color4: #673ab7;
+  --color5: #3f51b5;
+  --color6: #2196f3;
+  --color7: #03a9f4;
+  --color8: #00bcd4;
+  --color9: #009688;
+  --color10: #4caf50;
+  --color11: #8bc34a;
+  --color12: #cddc39;
+  --color13: #cddc39;
+  --color14: #795548;
+  --color15: #607d8b;
+  --color16: #ff5722;
+  --color17: #ff9800;
+  --color18: #ffc107;
+}
+
+/* color1 */
+.active.color1 .drag {
+  background-color: var(--color1);
+}
+
+.active.color1 .drag::after {
+  position: absolute;
+  content: "😃";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color2 */
+.active.color2 .drag {
+  background-color: var(--color2);
+}
+
+.active.color2 .drag::after {
+  position: absolute;
+  content: "😇";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color3 */
+.active.color3 .drag {
+  background-color: var(--color3);
+}
+
+.active.color3 .drag::after {
+  position: absolute;
+  content: "😉";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+
+/* color4 */
+.active.color4 .drag {
+  background-color: var(--color4);
+}
+
+.active.color4 .drag::after {
+  position: absolute;
+  content: "😱";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color5 */
+.active.color5 .drag {
+  background-color: var(--color5);
+}
+
+.active.color5 .drag::after {
+  position: absolute;
+  content: "😁";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+
+/* color6 */
+.active.color6 .drag {
+  background-color: var(--color6);
+}
+
+.active.color6 .drag::after {
+  position: absolute;
+  content: "😊";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color7 */
+.active.color7 .drag {
+  background-color: var(--color7);
+}
+
+.active.color7 .drag::after {
+  position: absolute;
+  content: "😋";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color8 */
+.active.color8 .drag {
+  background-color: var(--color8);
+}
+
+.active.color8 .drag::after {
+  position: absolute;
+  content: "😎";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color9 */
+.active.color9 .drag {
+  background-color: var(--color9);
+}
+
+.active.color9 .drag::after {
+  position: absolute;
+  content: "😍";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color10 */
+.active.color10 .drag {
+  background-color: var(--color10);
+}
+
+.active.color10 .drag::after {
+  position: absolute;
+  content: "😏";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color11 */
+.active.color11 .drag {
+  background-color: var(--color11);
+}
+
+.active.color11 .drag::after {
+  position: absolute;
+  content: "🙈";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color12 */
+.active.color12 .drag {
+  background-color: var(--color12);
+}
+
+.active.color12 .drag::after {
+  position: absolute;
+  content: "😜";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color13 */
+.active.color13 .drag {
+  background-color: var(--color13);
+}
+
+.active.color13 .drag::after {
+  position: absolute;
+  content: "😳";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color14 */
+.active.color14 .drag {
+  background-color: var(--color14);
+}
+
+.active.color14 .drag::after {
+  position: absolute;
+  content: "🛀";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color15 */
+.active.color15 .drag {
+  background-color: var(--color15);
+}
+
+.active.color15 .drag::after {
+  position: absolute;
+  content: "💩";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color16 */
+.active.color16 .drag {
+  background-color: var(--color16);
+}
+
+.active.color16 .drag::after {
+  position: absolute;
+  content: "🔥";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+/* color17 */
+.active.color17 .drag {
+  background-color: var(--color17);
+}
+
+.active.color17 .drag::after {
+  position: absolute;
+  content: "🙃";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
