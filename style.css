@@ -33,7 +33,7 @@
   border: 1px solid rgb(18, 202, 18);
   position: relative;
   border-radius: 5px;
-  margin: 50px;
+  margin: 20px 10px;
   max-width: 900px;
   display: flex;
   flex-wrap: wrap;
@@ -43,20 +43,21 @@
 
 .empty {
   margin: 5px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: grey;
   border-radius: 10px;
+  margin: 5px auto;
 }
 
 .drag {
   position: absolute;
   margin: 0;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: darkred;
   border-radius: 10px;
-  
+
 }
 
 .active {
